@@ -6,6 +6,8 @@ public class Main {
 
         var myDog = new Dog("Fido", 6,"Black");
         myDog.eats();
-        //System.out.println(myDog.getName() + " " + );
+
+        var myCollie = new BorderCollie("Shep",9,"Black and white");
+        System.out.println(myCollie.getName()+" has "+myCollie.getEyes());
     }
 }
